@@ -7,9 +7,7 @@
   width: 38.4375rem;
   margin-top: 20px;
   margin-bottom: 20px;
-
   border-bottom: 1px solid v.$border-color;
-
 
   .post__header {
     width: 38.4375rem;
@@ -24,10 +22,9 @@
 
   .post__image {
     position: relative;
-   width:  615px;
-   left: -1px;
-   border: 1px solid v.$border-color;
-   
+    width:  615px;
+    left: -1px;
+    border: 1px solid v.$border-color;
   }
 
   .post__details {

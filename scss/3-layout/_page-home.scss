@@ -6,6 +6,7 @@
   background-color: v.$primary-color;
   position: relative;
   top: 0; 
+  border-bottom: 1px solid v.$border-color;
 
   .header__controllers {
     width: 150px;
