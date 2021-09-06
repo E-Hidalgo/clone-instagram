@@ -5,3 +5,20 @@ p {
   font-size: 12px;
   color: v.$secondary-text-color;
 }
+
+.p__likes {
+  color: v.$links-color;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.p__autor {
+  color: v.$links-color;
+  font-size: 12px;
+  margin-right: 5px;
+  font-weight: lighter;
+}
+
+.p__primary {
+  color: v.$primary-text-color
+}

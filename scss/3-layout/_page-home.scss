@@ -1,0 +1,17 @@
+@use "../1-base/base-index" as v;
+
+.header {
+  width: 100%;
+  padding: 10px;
+  background-color: v.$primary-color;
+  position: relative;
+  top: 0; 
+
+  .header__controllers {
+    width: 150px;
+  }
+}
+
+.post {
+  border: 1px solid v.$border-color;
+}

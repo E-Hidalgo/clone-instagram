@@ -2,9 +2,16 @@
 @use "../1-base/base-index" as v;
 
 .main-content {
+  margin: 5vh;
+  
   .main-content__mockup {
     padding: 2.0625rem;
+  }
     
+    @media all and(max-width: 900px) {
+      .main-content__mockup {
+        display: none;
+      }
   }
 
   .login {
@@ -33,25 +40,39 @@
 
      .or {
      width: 100%;
-   }
-  
-    .left-line {
+
+     .left-line {
       background-color: v.$secondary-text-color;
-      height: 0.0625rem;
-      width: 6.875rem;
+      height: 1px;
+      width: 110px;
     }
 
     .right-line {
       background-color: v.$secondary-text-color;
-      height: 0.0625rem;
-      width: 6.875rem;
+      height: 1px;
+      width: 110px;
     }
-
+   }
+  
     .link {
+      margin-top: 1.25rem;
       color: v.$links-color;
       text-decoration : none;
       font-family: v.$primary-font;
+
+      img {
+        margin-right: 10px;
+        border-radius: 3px;
+      }
     }
+  }
+  .create-account {
+    width: 21.875rem;
+    height: 4rem;
+    background-color: v.$primary-color;
+    border: 1px solid v.$border-color;
+    margin-top: 20px;
+    
   }
 
 }

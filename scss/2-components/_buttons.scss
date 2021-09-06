@@ -7,5 +7,13 @@
   border-radius: v.$btn-border-radius;
   border: none;
   color: v.$primary-color;
-  margin: 1.0625rem 0
+  margin: 1.0625rem 0;
+  padding-top: 5px;
+  cursor: pointer;
+  font-family: v.$primary-font;
+  text-decoration: none;
+
+  &:hover {
+    background-color: v.$primary-btn-color
+  }
 }

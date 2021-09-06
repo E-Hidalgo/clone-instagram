@@ -1,7 +1,18 @@
+.--flex-row {
+  display: flex;
+  justify-content: flex-start;
+}
 .--flex-row-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.--flex-row-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
 }
 
 .--flex-column {
@@ -22,3 +33,4 @@
   justify-content: space-around;
   align-items: center;
 }
+
