@@ -86,6 +86,33 @@ p {
   margin: 10px;
 }
 
+@media screen and (max-width: 818px) {
+  .header {
+    max-width: 100%;
+  }
+  .header .header__logo {
+    width: 100px;
+    margin-right: 20px;
+  }
+  .header input {
+    width: 60px;
+  }
+
+  .feed {
+    max-width: 100%;
+  }
+
+  .post {
+    max-width: 100%;
+  }
+  .post .post__header {
+    max-width: 100%;
+  }
+
+  .post__image {
+    max-width: 100%;
+  }
+}
 .footer {
   position: relative;
   bottom: 0;

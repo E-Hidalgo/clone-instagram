@@ -9,6 +9,8 @@
   margin-bottom: 20px;
   border-bottom: 1px solid v.$border-color;
 
+  
+
   .post__header {
     width: 38.4375rem;
     background-color: v.$primary-color;
@@ -31,4 +33,35 @@
     margin: 10px;
   }
 }
+}
+
+@media screen and(max-width:818px) {
+  .header {
+    max-width: 100%;
+    .header__logo {
+      width: 100px;
+      margin-right: 20px;
+
+    }
+    input {
+      width: 60px;
+    }
+  }
+
+  .feed {
+    max-width: 100%;
+  }
+  
+  .post {
+    max-width: 100%;
+
+    .post__header {
+      max-width: 100%;
+    }
+  }
+
+  .post__image {
+    max-width: 100%;
+
+  }
 }
